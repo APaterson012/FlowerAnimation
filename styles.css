@@ -1,0 +1,15 @@
+/* Reset margin and padding for the entire page */
+body, html {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #000;
+    width: 100%;
+    height: 100%;
+  }
+  
+  /* Ensure the canvas fills the entire viewport */
+  canvas {
+    display: block;
+  }
+  
